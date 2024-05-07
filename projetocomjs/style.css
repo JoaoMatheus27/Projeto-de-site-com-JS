@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+:root{
+--font-family:"Bangers", system-ui;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 .container-cabeca{
-    display:flex ;
-    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: orange;
+    align-items: center;
+    font-family:var(--font-family) ;
+}
+.container-cabeca__principal__titulo{
+    font-size: 70px;
+}
+.container-cabeca__botao{
+    background-color: #000000;
+    font-size: 50px;
+    border-radius: 10px;
+    color: orange;
+    
 }
